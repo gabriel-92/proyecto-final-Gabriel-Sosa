@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/sweetalert2.min.css">
+    <link rel="stylesheet" href="/css/styles.css">
+    <!--Inicio script  -->
+    <script defer src="js/jquery-3.4.1.min.js"></script>
+    <script defer src="js/bootstrap.min.js"></script>
+    <script defer src="js/sweetalert2.min.js"></script>
+    <script defer src="js/script.js"></script>
+    <script defer src="js/main.js"></script>
+    <!-- Fin script  -->
+    <title>Sushi FullStack</title>
+</head>
+
+<body>
+    <header>
+        <!-- barra de navegación con menu desplegable -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <div>
+                    <img class="img-fluid" src="img/logo.png" width="30" height="24" alt=""><a class="navbar-brand"
+                        href="index.html">Sushi Fullstack</a>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                    aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 300px">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Contacto</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link active dropdown-toggle" href="#" id="navbarScrollingDropdown"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Menu
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                                <li><a class="dropdown-item" href="#menu">Menu</a></li>
+                                <li><a class="dropdown-item" href="#cartaDeVinos">Carta de Vinos</a></li>
+                                </u>
+                        </li>
+                    </ul>
+                </div>
+        </nav>
+    </header>
+    <main>
+        <!-- contenido principal -->
+        <div class=" titulos-principal text-start">
+            <h1 class="titulo-index">
+                Sushi para programadores!
+            </h1>
+            <div class="parrafo-index container ">
+                <p class="lead fs-3 my-4 ">Concedete ahora una fabulosa pausa rica en sabores y carbohidratos. Está
+                    científicamente probado que nuestros roll te ayudan a escribir un código mas eficiente.</p>
+            </div>
+            <a href="compra.html"><button type="button" class="btn   btn-primary">Ordena ahora!</button></a>
+            <button type="button" class="btn  btn-secondary">Llámanos</button>
+        </div>
+        <!-- menu de sushi inicio -->
+        <div class="text-center titulo-menu">
+            <h2 id="menu">
+                Menu
+            </h2>
+        </div>
+        <section>
+            <div class="container">
+                <div class="cards">
+                    <div class="row">
+                        <!-- ! código agregado dinamicamente con el JSON "database.json"-->
+                    </div>
+        </section>
+        <!--? Inicio resumen total -->
+        <section class=" container shopping-cart">
+            <div class="container shopping-cart">
+                <h1 class="text-center">CARRITO</h1>
+                <hr>
+                <div class="row">
+                    <div class="col-6">
+                        <div class="shopping-cart-header">
+                            <h6>Producto</h6>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="shopping-cart-header">
+                            <h6 class="text-truncate">Precio</h6>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="shopping-cart-header">
+                            <h6>Cantidad</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="shopping-cart-items shoppingCartItemsContainer">
+                    <!-- ! container cargado a través de script.js  -->
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="shopping-cart-total d-flex align-items-center">
+                        <p class="mb-0">Total</p>
+                        <p class="ml-4 mb-0 ordenTotal">0€</p>
+                        <button class="btn btn-success ml-auto button comprarButton">
+                            Comprar
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Fin resumen total -->
+    </main>
+    <!-- inicio footer -->
+    <footer class="bg-dark mt-5 text-center text-white">
+        <div class="container p-4">
+            <section class="mb-4">
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fa fa-facebook"></i></a>
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fa fa-twitter"></i></a>
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fa fa-google"></i></a>
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fa fa-instagram"></i></a>
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fa fa-github"></i></a>
+            </section>
+            <section class="">
+                <form action="">
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-auto">
+                            <p class="pt-2">
+                                <strong>Suscríbete a nuestro Newsletter</strong>
+                            </p>
+                        </div>
+                        <div class="col-md-5 col-12">
+                            <div class="form-outline form-white mb-4">
+                                <input type="email" id="form5Example21" placeholder="Ejemplo@ejemplo.com"
+                                    class="form-control" />
+                                <label class="form-label" for="form5Example21"></label>
+                            </div>
+                        </div>
+                        <div class="col-auto">
+                            <button type="submit" class="btn btn-outline-light mb-4">
+                                Suscríbete
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </section>
+            <section class="mb-4">
+                <p>
+                    Fullstack el mejor sushi en casa
+                </p>
+            </section>
+            <div class="text-center p-3">
+                © 2022 Copyright:
+                <a class="text-white" href="#">Sushi Fullstack</a>
+            </div>
+    </footer>
+    <!-- fin de footer  -->
+</body>
+
+</html>

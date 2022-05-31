@@ -1,0 +1,74 @@
+[
+  {
+    "id": "1ec58676-898f-4fa5-9fcf-1f386dda4724",
+    "title": "California",
+    "price": 9.99,
+    "image": "california.png"
+  },
+  {
+    "id": "420bad3c-974e-4749-9e35-7ea303320e93",
+    "title": "Dragon",
+    "price": 7.99,
+    "image": "dragon.png"
+  },
+  {
+    "id": "bb5c95a2-f1d3-44ad-bafd-3ebd7bdbcaa9",
+    "title": "Dynamite",
+    "price": 5.99,
+    "image": "dynamite.png"
+  },
+  {
+    "id": "8655bd50-c30c-476c-81e4-ce78a0298a52",
+    "title": "Philadelphia",
+    "price": 19.99,
+    "image": "Philadelphia.png"
+  },
+  {
+    "id": "12b06f0e-7a73-4b0c-b70d-ddb614eb60a8",
+    "title": "Rainbow",
+    "price": 19.99,
+    "image": "Rainbow.png"
+  },
+  {
+    "id": "80fb88df-bcda-4613-a27f-802b53f2704e",
+    "title": "Shrimp",
+    "price": 6.99,
+    "image": "Shrimp.png"
+  },
+  {
+    "id": "69ead807-2906-4802-a397-cfd22d38967c",
+    "title": "Vermentino",
+    "price": 20.50,
+    "image": "vino1.jpg"
+  },
+  {
+    "id": "5c5460f6-2e4b-4007-8dfd-a3ccd4ab9c87",
+    "title": "Valpolicella Ripasso",
+    "price": 15.70,
+    "image": "vino2.jpg"
+  },
+  {
+    "id": "c9fa0129-0719-4b47-bb25-d987d5f3a2bc",
+    "title": "Merlot",
+    "price": 28.00,
+    "image": "vino3.jpg"
+  },
+  {
+    "id": "e6f65dd6-b540-4cd8-97b4-046be2c650aa",
+    "title": "Carricante",
+    "price": 10.50,
+    "image": "vino4.jpg"
+  },
+  {
+    "id": "ca82f86f-35d8-4b8e-af26-9c02ab9e67bf",
+    "title": "Pinot Grigio",
+    "price": 25.50,
+    "image": "vino5.jpg"
+  },
+  {
+    "id": "159ae0e8-b218-49d6-ad09-be1b5920b68a",
+    "title": "Pinot Bianco",
+    "price": 29.90,
+    "image": "vino6.jpg"
+  }
+]
